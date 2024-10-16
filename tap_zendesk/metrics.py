@@ -5,7 +5,7 @@ from datetime import datetime
 import singer
 
 # Defines the window (in seconds) over which we will collect raw metrics.
-# After this much time has elapsed we'll capture a compressed datapoint
+# After this much time has elapsed we will capture a compressed datapoint
 # and log the current results.
 capture_rate = 300              # 5 minutes of seconds
 
